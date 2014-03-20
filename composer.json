@@ -1,0 +1,28 @@
+{
+    "name": "my-wardrobe/jsonschema",
+    "type": "library",
+    "description": "A PHP implementation of the JSON Schema validation standard",
+    "keywords": ["JSON Schema", "JSON", "validation"],
+    "authors": [{
+        "name": "Danny Smart",
+        "email": "danny.smart@my-wardrobe.com"
+    }],
+    "repositories": [
+        {
+            "type": "composer",
+            "url":  "http://satis.my-wardrobe.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "my-wardrobe/utility": "0.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "MW\\JsonSchema": "src/"
+        }
+    }
+}
