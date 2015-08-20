@@ -1,5 +1,5 @@
 {
-    "name": "my-wardrobe/jsonschema",
+    "name": "downsider/jsonschema",
     "type": "library",
     "description": "A PHP implementation of the JSON Schema validation standard",
     "keywords": ["JSON Schema", "JSON", "validation"],
