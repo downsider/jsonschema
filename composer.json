@@ -2,6 +2,7 @@
     "name": "lexide/jsonschema",
     "type": "library",
     "description": "A PHP implementation of the JSON Schema validation standard",
+    "license": "MIT",
     "keywords": ["JSON Schema", "JSON", "validation"],
     "authors": [{
         "name": "Danny Smart",
