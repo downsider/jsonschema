@@ -1,21 +1,21 @@
 {
-    "name": "downsider/jsonschema",
+    "name": "lexide/jsonschema",
     "type": "library",
     "description": "A PHP implementation of the JSON Schema validation standard",
     "keywords": ["JSON Schema", "JSON", "validation"],
     "authors": [{
         "name": "Danny Smart",
-        "email": "downsider@hotmail.com"
+        "email": "downsider84@hotmail.com"
     }],
     "require": {
         "php": ">=5.3.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "3.7.*"
+        "phpunit/phpunit": "4.*"
     },
     "autoload": {
-        "psr-0": {
-            "Downsider\\JsonSchema": "src/"
+        "psr-4": {
+            "Lexide\\JsonSchema\\": "src/"
         }
     }
 }
